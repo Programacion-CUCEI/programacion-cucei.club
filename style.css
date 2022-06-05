@@ -1,0 +1,68 @@
+body {
+  background-color: #071414;
+}
+
+#central {
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	text-align: center;
+}
+
+#animacion {
+	position: fixed;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+#texto {
+	font-family: "lucida console", "Courier New", monospace;
+	font-size: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
+}
+
+#enlaces {
+	position: fixed;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	top: 70%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+.red {
+	vertical-align: middle;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
