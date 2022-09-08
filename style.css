@@ -38,15 +38,16 @@ img{
 
 #texto {
 	font-family: "lucida console", "Courier New", monospace;
-	font-size: 25px;
+	font-size: 30px;
 	display: inline-block;
 	vertical-align: middle;
 	color: white;
 	letter-spacing: 2px;
+	font-weight: 700;
 }
 @media(min-width: 450px){
     #texto {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 @media(min-width:1200px){
