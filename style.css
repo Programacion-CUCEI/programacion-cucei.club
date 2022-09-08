@@ -38,11 +38,21 @@ img{
 
 #texto {
 	font-family: "lucida console", "Courier New", monospace;
-	font-size: 50px;
+	font-size: 25px;
 	display: inline-block;
 	vertical-align: middle;
 	color: white;
 	letter-spacing: 2px;
+}
+@media(min-width: 450px){
+    #texto {
+        font-size: 30px;
+    }
+}
+@media(min-width:1200px){
+    #texto {
+        font-size: 50px;
+    }
 }
 
 #cursor {
